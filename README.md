@@ -1,2 +1,4 @@
-# Team Name: Team 1
-Team Members: Cheyenne Ashou, Trace Hereford, Maurice Kenon
+# TEAM1-SQA2022-AUBURN
+Trace Hereford
+Maurice Kenon
+Cheyenne Ashou
