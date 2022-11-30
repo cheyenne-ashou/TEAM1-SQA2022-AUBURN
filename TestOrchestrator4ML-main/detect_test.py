@@ -5,12 +5,16 @@ import numpy as np
 import csv 
 import time 
 from datetime import datetime
+import logger
 
 
 def giveTimeStamp():
+  log0 = logger.getLogger()
   tsObj = time.time()
   strToret = datetime.fromtimestamp(tsObj).strftime('%Y-%m-%d %H:%M:%S')
+  log0.debug('{}*{}*'.format('detect_test.py','giveTimeStamp'))
   return strToret
+  
    
     
 def checkTestFile(path2dir): 
